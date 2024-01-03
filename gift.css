@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('ginebra-ciudad-futuro.png');
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-color: #f2f2f2; 
+    color: #333; 
+}
+
+.mensaje {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #ff6f60;
+    max-width: 400px;
+    width: 100%;
+    
+    
+    
+}
+
+#envasadora {
+    max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    display: block; /* Elimina el espacio adicional alrededor de la imagen */
+}
